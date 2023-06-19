@@ -124,33 +124,4 @@ Pin_numero = random(6, 12);//Para que los led enciendan de manera aleatoria
    Demora = 0;                            //Inicializa el contador
    delay(100);
    }
-
-
-
-
-  
-/*
-
-int val0 = digitalRead(Pul0);
-Serial.print(val0);
-if(val0==0){
-    digitalWrite(Azul, !digitalRead(Azul));   // turn the LED on (HIGH is the voltage level)
-
-  delay(500);
- }
-int val1 = digitalRead(Pul1);
-Serial.print(val1);
-if(val1==0){
-    digitalWrite(Rojo, !digitalRead(Rojo));   // turn the LED on (HIGH is the voltage level)
-
-  delay(500);
- }
- int val2 = digitalRead(Pul2);
-Serial.print(val2);
-if(val2==0){
-    digitalWrite(Amarillo, !digitalRead(Amarillo));   // turn the LED on (HIGH is the voltage level)
-
-  delay(500);
- }
- */         
 }
